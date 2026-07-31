@@ -1,5 +1,5 @@
 """
-Scrapes HSC results from https://easycollegemate.com/ecmskcr/result
+Scrapes HSC results from x
 for a list of student IDs, using a chosen Level + Exam.
 
 STATUS: form-filling is wired up. The RESULT EXTRACTION part (bottom of
@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 
-URL = "https://easycollegemate.com/ecmskcr/result"
+URL = "x"
 
 # ---- CONFIG: change these as needed ----
 LEVEL = "HSC 1st Year"              # or "HSC 2nd Year"
